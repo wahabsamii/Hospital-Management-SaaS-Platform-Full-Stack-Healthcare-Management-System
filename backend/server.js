@@ -8,7 +8,7 @@ import doctorRouter from "./routes/doctorRoute.js"
 import adminRouter from "./routes/adminRoute.js"
 
 // app config
-const app = express()
+const app = express();
 const port = process.env.PORT || 4000
 connectDB()
 connectCloudinary()
@@ -23,7 +23,8 @@ app.use("/api/admin", adminRouter)
 app.use("/api/doctor", doctorRouter)
 
 app.get("/", (req, res) => {
-  res.send("API Working")
+  res.send("API Working Prescripto")
 });
 
-app.listen(port, () => console.log(`Server started on PORT:${port}`))
+// app.listen(port, () => console.log(`Server started on PORT:${port}`))
+export default app;
