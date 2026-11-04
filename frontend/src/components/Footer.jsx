@@ -103,7 +103,7 @@ const Footer = () => {
                 <div>
                   <p className='text-xs text-gray-400 mb-1'>Location</p>
                   <p className='text-sm font-medium text-gray-700'>
-                    Healthcare, Anywhere
+                    Gulberg green, BM 192 Floor Lahore
                   </p>
                 </div>
               </div>
